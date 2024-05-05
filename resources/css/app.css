@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+button,
+textarea,
+a {
+    @apply outline-none;
+}
+
+.is-invalid {
+    @apply ring-inset ring-2 ring-red-500;
+}
+
+.is-valid {
+    @apply ring-inset ring-2 ring-green-500;
+}
+
+.invalid-feedback {
+    @apply text-red-500 font-semibold text-xs;
+}
